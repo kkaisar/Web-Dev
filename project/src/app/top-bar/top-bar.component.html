@@ -1,0 +1,19 @@
+
+<div id = "top1" class = "top_bar box-row">
+  <div class = "logo">
+    <a [routerLink] = "['']"><img src = "../../assets/logoaero.png" alt = "logo" class = "logo_img" ></a>
+  </div>
+  <div class = "searching_panel">
+    <input [(ngModel)] = "searchText"
+           type = "text"
+           placeholder = "Laptop..."
+           class = "searching_panel_input input_change">
+    <button id = "find-button" (click)="Search()">Find</button>
+  </div>
+  <div class = "menu box-row">
+    <button id = "sign_in" class = "top_bar_buttons push"><a [routerLink] = "['/login']">Sign In </a></button>
+    <button id = "sign_up" class = "top_bar_buttons" ><a [routerLink] = "['/registration']">Sign Up </a></button>
+
+  </div>
+</div>
+

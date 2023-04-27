@@ -1,0 +1,97 @@
+.box-row{
+  display: flex;
+  text-align: center;
+  flex-direction: row;
+}
+.top_bar{
+  padding-left: 40px;
+  padding-right: 40px;
+  background-color: #b6d5e1;
+  height: 70px;
+
+}
+
+.top_bar_buttons{
+  font-size: 1.3rem;
+  width: 100px;
+  height: 35px;
+  border: none;
+  border-radius: 5px;
+}
+.logo{
+  flex: auto;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+.logo_img{
+  width: 90px;
+
+}
+
+.searching_panel{
+  flex: auto;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+.searching_panel_input{
+  width: 90%;
+  height: 55%;
+  background-color: #555273;
+  color: white;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: medium;
+}
+
+.menu{
+  flex: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: right;
+  align-items: center;
+}
+#find-button{
+  height: 40px;
+  width: 70px;
+  background-color:#555273;
+  margin-left: 5px;
+  color: white;
+}
+
+#top1{
+  border-bottom: 3px solid #555273;
+}
+#menu_button{
+  margin-left: 10px;
+}
+#sign_in{
+
+}
+#sign_up{
+  margin-left: 10px;
+}
+#menu_button:hover{
+  cursor: pointer;
+  color: forestgreen;
+}
+#menu_button:active{
+  color: limegreen;
+}
+#sign_up:hover{
+  cursor: pointer;
+  color: forestgreen;
+}
+#sign_up:active{
+  color: limegreen;
+}
+#sign_in:hover{
+  cursor: pointer;
+  color: forestgreen;
+}
+#sign_in:active{
+  color: limegreen;
+}
+
+
